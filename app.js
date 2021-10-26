@@ -6,6 +6,7 @@ const mongoose = require("mongoose");
 const ejs = require("ejs");
 const bcrypt = require("bcrypt");
 const { response } = require("express");
+const saltRounds = 10;
 
 const app = express();
 
